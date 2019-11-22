@@ -7,7 +7,7 @@ if first == "hello grandma"
   puts "huh?! speak up,sonny!".upcase
 elsif second == "no i said"
   puts "no, not since 1938".upcase
-else third == "I LOVE YOU GRANDMA"
+else third == "I LOVE YOU GRANDMA".upcase
   puts "i love you too pumpkin".upcase
 end
 # Whatever you say to grandma, she should respond with
