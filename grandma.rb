@@ -1,7 +1,5 @@
 # Write a speak_to_grandma method.
-first = "hello grandma"
-second = "no i said"
-thrid = "I LOVE YOU GRANDMA"
+
 def speak_to_grandma(first, second, third)
 if first == "hello grandma"
   puts "huh?! speak up,sonny!".upcase
