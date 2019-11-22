@@ -1,13 +1,14 @@
 # Write a speak_to_grandma method.
 
-thrid = "i love you grandma.upcase"
-def speak_to_grandma(first, second, third)
-if first == "hello grandma"
-  puts "huh?! speak up,sonny!".upcase
-elsif second == "no i said"
-  puts "no, not since 1938".upcase
-else third == "i love you grandma".upcase
-  puts "i love you too pumpkin!".upcase
+def speak_to_grandma(first)
+  if first == "i love you grandma!".upcase
+    return "i love you too pumpkin!".upcase
+  end
+  if first != first.upcase()
+    return "huh?! speak up, sonny!".upcase
+  else
+  return "no, not since 1938!".upcase
+ end
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
