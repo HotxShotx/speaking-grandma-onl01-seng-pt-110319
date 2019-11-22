@@ -4,11 +4,11 @@ second = "no i said"
 thrid = "I LOVE YOU GRANDMA"
 def speak_to_grandma(first, second, third)
 if first == "hello grandma"
-  puts "huh?! speak up,sonny!".upcase
+  puts "huh?! speak up,sonny!"
 elsif second == "no i said"
-  puts "no, not since 1938".upcase
-else third == "I LOVE YOU GRANDMA".upcase
-  puts "i love you too pumpkin".upcase
+  puts "no, not since 1938"
+else third == "I LOVE YOU GRANDMA"
+  puts "i love you too pumpkin"
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
